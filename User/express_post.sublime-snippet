@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+post(${2:'/${1:path}',} function(req,resp,next) {
+	${3}
+});
+]]></content>
+<tabTrigger>post</tabTrigger>
+<scope>source.js</scope>
+<description>post(path,function(req,resp,next){...</description>
+</snippet>

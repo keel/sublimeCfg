@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+function (err${1:,re}) {
+	if (err) {
+		${2:console.error(err,err.stack);}return ${3:callback(err)};
+	}
+	${4}
+}
+]]></content>
+<tabTrigger>fne</tabTrigger>
+<scope>source.js</scope>
+<description>function (err){...</description>
+</snippet>

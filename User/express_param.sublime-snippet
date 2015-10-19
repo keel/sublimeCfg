@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+param('${1:param}',function(req,resp,next,${2:val}) {
+	${3}
+});
+]]></content>
+<tabTrigger>param</tabTrigger>
+<scope>source.js</scope>
+<description>param(param,function (req,resp,next,val){...</description>
+</snippet>

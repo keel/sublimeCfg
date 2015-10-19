@@ -1,0 +1,5 @@
+{
+  "path":"/usr/local/bin:$PATH",
+  "cmd":["/usr/local/bin/nodeWithKillall.sh","$file"],
+  "selector": "source.js"
+}

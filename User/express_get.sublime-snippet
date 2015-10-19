@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+get(${2:'/${1:path}',}function (req,resp,next) {
+	${3}
+});
+]]></content>
+<tabTrigger>getf</tabTrigger>
+<scope>source.js</scope>
+<description>get(path,function (req,resp,next){...</description>
+</snippet>

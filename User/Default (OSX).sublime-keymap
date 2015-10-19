@@ -1,0 +1,24 @@
+[
+	{ "keys": ["alt+up"], "command": "swap_line_up" },
+	{ "keys": ["alt+down"], "command": "swap_line_down" },
+	{ "keys": ["super+shift+v"], "command": "paste" },
+	{ "keys": ["super+v"], "command": "paste_and_indent" },
+	{ "keys": ["f3"], "command": "goto_definition" },
+	{ "keys": ["super+alt+down"], "command": "duplicate_line" },
+	{ "keys": ["super+alt+up"], "command": "duplicate_line" },
+	{ "keys": ["alt+/"], "command": "auto_complete" },
+
+	{ "keys": ["super+shift+m"], "command": "expand_selection", "args": {"to": "brackets"} },
+	{ "keys": ["super+m"], "command": "move_to", "args": {"to": "brackets"} },
+	{ "keys": ["alt+/"], "command": "replace_completion_with_auto_complete", "context":
+		[
+			{ "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
+			{ "key": "auto_complete_visible", "operator": "equal", "operand": false },
+			{ "key": "setting.tab_completion", "operator": "equal", "operand": true }
+		]
+	},
+	{ "keys": ["super+shift+d"], "command": "duplicate_line" },
+	{"keys": ["alt+i"], "command": "reindent" , "args": {"single_line": true}},
+	{ "keys": ["super+k", "super+k"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} }
+
+]
