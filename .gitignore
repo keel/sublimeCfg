@@ -1,0 +1,4 @@
+.DS_Store
+User/Package Control.cache/
+*.cache
+*_cache.json

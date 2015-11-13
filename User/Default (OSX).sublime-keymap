@@ -8,6 +8,8 @@
 	{ "keys": ["super+alt+up"], "command": "duplicate_line" },
 	{ "keys": ["alt+/"], "command": "auto_complete" },
 
+	{ "keys": ["super+."], "command": "move_to", "args": {"to": "hardeol"} },
+
 	{ "keys": ["super+shift+m"], "command": "expand_selection", "args": {"to": "brackets"} },
 	{ "keys": ["super+m"], "command": "move_to", "args": {"to": "brackets"} },
 	{ "keys": ["alt+/"], "command": "replace_completion_with_auto_complete", "context":

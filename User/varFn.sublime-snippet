@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-var ${1:fnName} = function(${2:paras}){
+var ${1:fnName} = function(${2:paras}) {
 	${3://}
 };
 ]]></content>
